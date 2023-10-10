@@ -8,6 +8,7 @@ h1{
 h3{
     overflow: hidden ;
 }
+
 header{
     display: flex;
     align-items: center;
@@ -155,6 +156,19 @@ footer a{
  #footer-area{
     display: flex;
  }
+ #destaque{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgba(20, 17, 167, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #destaque h1{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2rem;
+  }  
  @media screen and (min-width:800px) {
     #meio{
         height: 500px;
